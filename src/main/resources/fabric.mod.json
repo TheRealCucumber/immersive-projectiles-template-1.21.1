@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "immersiveprojectiles",
+	"version": "${version}",
+	"name": "Immersive Projectiles",
+	"description": "This is a Minecraft mod that adds new components mostly addressing ranged weapons and porjectiles.",
+	"authors": [
+		"TheRealCucumber"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/immersiveprojectiles/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.therealcucumber.immersiveprojectiles.ImmersiveProjectiles"
+		],
+		"fabric-datagen": [
+			"net.therealcucumber.immersiveprojectiles.ImmersiveProjectilesDataGenerator"
+		],
+		"client": [
+			"net.therealcucumber.immersiveprojectiles.ImmersiveProjectilesClient"
+		]
+	},
+	"mixins": [
+		"immersiveprojectiles.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
