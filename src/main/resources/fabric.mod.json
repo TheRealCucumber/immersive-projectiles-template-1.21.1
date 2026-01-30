@@ -3,13 +3,13 @@
 	"id": "immersiveprojectiles",
 	"version": "${version}",
 	"name": "Immersive Projectiles",
-	"description": "This is a Minecraft mod that adds new components mostly addressing ranged weapons and porjectiles.",
+	"description": "This is a Minecraft mod that adds new components mostly addressing ranged weapons and projectiles.",
 	"authors": [
 		"TheRealCucumber"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://www.youtube.com/channel/UCf6oKzWOTFeNnPHJKnSQ8Rg",
+		"sources": "https://github.com/TheRealCucumber/immersive-projectiles-template-1.21.1/tree/master"
 	},
 	"license": "MIT",
 	"icon": "assets/immersiveprojectiles/icon.png",
