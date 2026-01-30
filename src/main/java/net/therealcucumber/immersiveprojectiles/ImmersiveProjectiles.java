@@ -2,6 +2,7 @@ package net.therealcucumber.immersiveprojectiles;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.therealcucumber.immersiveprojectiles.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,5 +12,6 @@ public class ImmersiveProjectiles implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 	}
 }
