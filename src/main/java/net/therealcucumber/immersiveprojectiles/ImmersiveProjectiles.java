@@ -13,5 +13,6 @@ public class ImmersiveProjectiles implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
