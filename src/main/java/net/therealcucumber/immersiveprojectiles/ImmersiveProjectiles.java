@@ -3,7 +3,6 @@ package net.therealcucumber.immersiveprojectiles;
 import assets.immersiveprojectiles.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
-import net.therealcucumber.immersiveprojectiles.item.ModItemGroups;
 import net.therealcucumber.immersiveprojectiles.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
