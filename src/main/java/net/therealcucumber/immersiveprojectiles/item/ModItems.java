@@ -12,6 +12,8 @@ import net.therealcucumber.immersiveprojectiles.ImmersiveProjectiles;
 public class ModItems {
     public static final Item IRON_SHAFT = registerItem("iron_shaft", new Item(new Item.Settings()));
     public static final Item PEBBLE = registerItem("pebble", new Item(new Item.Settings()));
+    public static final Item RAW_SILVER_ORE = registerItem("raw_silver_ore", new Item(new Item.Settings()));
+    public static final Item SILVER_INGOT = registerItem("silver_ingot", new Item(new Item.Settings()));
 
 private static Item registerItem(String name, Item item) {
     return Registry.register(Registries.ITEM, Identifier.of(ImmersiveProjectiles.MOD_ID, name), item);
@@ -20,9 +22,5 @@ private static Item registerItem(String name, Item item) {
     public static void registerModItems() {
         ImmersiveProjectiles.LOGGER.info("Registering Mod Items for " + ImmersiveProjectiles.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(IRON_SHAFT);
-        });
-    }
-
-}
+        };
+    };

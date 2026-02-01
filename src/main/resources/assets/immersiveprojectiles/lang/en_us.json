@@ -1,4 +1,11 @@
 {
   "item.immersiveprojectiles.iron_shaft": "Iron Shaft",
-  "item.immersiveprojectiles.pebble": "Pebble"
+  "item.immersiveprojectiles.pebble": "Pebble",
+  "item.immersiveprojectiles.silver_ingot": "Silver Ingot",
+  "item.immersiveprojectiles.raw_silver_ore": "Raw Silver Ore",
+
+  "block.immersiveprojectiles.silver_ore": "Silver Ore",
+  "block.immersiveprojectiles.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.immersiveprojectiles.silver_block": "Silver Block",
+  "block.immersiveprojectiles.raw_silver_block": "Raw Silver Block"
 }
