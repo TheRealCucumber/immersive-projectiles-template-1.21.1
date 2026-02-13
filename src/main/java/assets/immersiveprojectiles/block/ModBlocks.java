@@ -13,11 +13,10 @@ import net.therealcucumber.immersiveprojectiles.ImmersiveProjectiles;
 
 public class ModBlocks {
     public static final Block SILVER_ORE = registerBlock("silver_ore",
-            new Block(AbstractBlock.Settings.create().strength(2f)
+            new Block(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
-
     public static final Block DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore",
-            new Block(AbstractBlock.Settings.create().strength(3f).
+            new Block(AbstractBlock.Settings.create().strength(4f).
                     requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block SILVER_BLOCK = registerBlock("silver_block",

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "immersiveprojectiles:raw_silver_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "immersiveprojectiles:raw_silver_ore"
+  }
+}

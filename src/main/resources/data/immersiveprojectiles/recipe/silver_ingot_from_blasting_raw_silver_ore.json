@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "silver_ingot",
+  "ingredient": {
+    "item": "immersiveprojectiles:raw_silver_ore"
+  },
+  "result": {
+    "id": "immersiveprojectiles:silver_ingot"
+  }
+}

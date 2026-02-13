@@ -15,12 +15,19 @@ public class ModItems {
     public static final Item RAW_SILVER_ORE = registerItem("raw_silver_ore", new Item(new Item.Settings()));
     public static final Item SILVER_INGOT = registerItem("silver_ingot", new Item(new Item.Settings()));
 
-private static Item registerItem(String name, Item item) {
-    return Registry.register(Registries.ITEM, Identifier.of(ImmersiveProjectiles.MOD_ID, name), item);
-}
+    private static Item registerItem(String name, Item item) {
+        return Registry.register(Registries.ITEM, Identifier.of(ImmersiveProjectiles.MOD_ID, name), item);
+    }
 
     public static void registerModItems() {
         ImmersiveProjectiles.LOGGER.info("Registering Mod Items for " + ImmersiveProjectiles.MOD_ID);
 
-        };
-    };
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(IRON_SHAFT);
+            fabricItemGroupEntries.add(PEBBLE);
+            fabricItemGroupEntries.add(SILVER_INGOT);
+            fabricItemGroupEntries.add(RAW_SILVER_ORE);
+
+        });
+    }
+}
