@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "immersiveprojectiles:silver_block",
+    "immersiveprojectiles:silver_ore",
+    "immersiveprojectiles:raw_silver",
+    "immersiveprojectiles:deepslate_silver_ore"
+  ]
+}
