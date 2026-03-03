@@ -3,13 +3,12 @@ package assets.immersiveprojectiles.block;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
-import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import net.therealcucumber.immersiveprojectiles.ImmersiveProjectiles;
+import net.therealcucumber.immersiveprojectiles.util.ImmersiveProjectiles;
 
 public class ModBlocks {
     public static final Block SILVER_ORE = registerBlock("silver_ore",

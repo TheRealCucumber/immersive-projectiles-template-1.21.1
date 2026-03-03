@@ -1,4 +1,4 @@
-package net.therealcucumber.immersiveprojectiles;
+package net.therealcucumber.immersiveprojectiles.util;
 
 import net.fabricmc.api.ClientModInitializer;
 
