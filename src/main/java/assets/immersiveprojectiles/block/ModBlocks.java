@@ -8,7 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import net.therealcucumber.immersiveprojectiles.util.ImmersiveProjectiles;
+import net.therealcucumber.immersiveprojectiles.ImmersiveProjectiles;
 
 public class ModBlocks {
     public static final Block SILVER_ORE = registerBlock("silver_ore",
