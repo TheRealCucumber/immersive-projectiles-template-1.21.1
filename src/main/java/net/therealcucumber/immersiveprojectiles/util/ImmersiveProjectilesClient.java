@@ -15,7 +15,6 @@ public class ImmersiveProjectilesClient implements ClientModInitializer {
         // This is the line that fixes "Failed to create screen"
         HandledScreens.register(ModScreenHandlers.QUIVER_SCREEN_HANDLER, QuiverScreen::new);
 
-        System.out.println("Immersive Projectiles Client: Registered Quiver Screen!");
 
         // --- Bow Animations ---
         ModelPredicateProviderRegistry.register(ModItems.REINFORCED_BOW, Identifier.ofVanilla("pull"), (stack, world, entity, seed) -> {

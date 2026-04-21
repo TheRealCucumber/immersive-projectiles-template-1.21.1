@@ -28,6 +28,9 @@ public class ModItems {
         return Registry.register(Registries.ITEM, Identifier.of(ImmersiveProjectiles.MOD_ID, name), item);
     }
 
+    public static final Item ENDER_ARROW = registerItem("ender_arrow",
+            new EnderArrowItem(new Item.Settings()));
+
     public static void registerModItems() {
         // Add Ingots/Ores to Ingredients Tab
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
@@ -40,6 +43,8 @@ public class ModItems {
         // Add Bow to Combat Tab
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(REINFORCED_BOW);
+            entries.add(QUIVER);
+            entries.add(ENDER_ARROW);
         });
     }
 }
