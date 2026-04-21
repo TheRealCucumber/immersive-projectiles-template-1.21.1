@@ -21,6 +21,9 @@ public class ModItems {
     public static final Item REINFORCED_BOW = registerItem("reinforced_bow",
             new ReinforcedBowItem(new Item.Settings().maxDamage(900).fireproof().rarity(Rarity.UNCOMMON)));
 
+    public static final Item QUIVER = registerItem("quiver",
+            new QuiverItem(new Item.Settings().maxCount(1)));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ImmersiveProjectiles.MOD_ID, name), item);
     }

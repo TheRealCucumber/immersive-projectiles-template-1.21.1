@@ -3,7 +3,9 @@
 	"package": "net.therealcucumber.immersiveprojectiles.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"ImmersiveProjectilesMixin",
+		"QuiverAmmoMixin",
+		"BowQuiverMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

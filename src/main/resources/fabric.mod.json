@@ -22,7 +22,7 @@
 			"net.therealcucumber.immersiveprojectiles.ImmersiveProjectilesDataGenerator"
 		],
 		"client": [
-			"net.therealcucumber.immersiveprojectiles.ImmersiveProjectilesClient"
+			"net.therealcucumber.immersiveprojectiles.util.ImmersiveProjectilesClient"
 		]
 	},
 	"mixins": [
